@@ -1,0 +1,457 @@
+@font-face {
+  font-family: 'Helvetica Now Display';
+  src: local('Helvetica Now Display Bold'), local('Helvetica-Now-Display-Bold'),
+      url('./fonts/HelveticaNowDisplay-Bold.woff2') format('woff2'),
+      url('./fonts/HelveticaNowDisplay-Bold.woff') format('woff'),
+      url('./fonts/HelveticaNowDisplay-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Helvetica Now Display';
+  src: local('Helvetica Now Display Medium'), local('Helvetica-Now-Display-Medium'),
+      url('./fonts/HelveticaNowDisplay-Medium.woff2') format('woff2'),
+      url('./fonts/HelveticaNowDisplay-Medium.woff') format('woff'),
+      url('./fonts/HelveticaNowDisplay-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Helvetica Now Display';
+  src: local('Helvetica Now Display Regular'), local('Helvetica-Now-Display-Regular'),
+      url('./fonts/HelveticaNowDisplay-Regular.woff2') format('woff2'),
+      url('./fonts/HelveticaNowDisplay-Regular.woff') format('woff'),
+      url('./fonts/HelveticaNowDisplay-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+ 
+ ul, li, img, a, h1, h2, h3, h4, h5, h6{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body{
+  background-color: #E5E5E5;
+  font-family: 'Helvetica Now Display';
+  font-weight: 500;
+  padding: 0 80px;
+}
+
+.container{
+  background: black;
+  padding: 10px;
+  border-radius: 70px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.btn:hover{
+  background: #101bf5;
+  cursor: pointer;
+}
+.header{
+  background: #fff url("./img/Saly-8.svg") 100% 100% no-repeat;
+  border-radius: 60px;
+  padding: 67px 104px 80px;
+}
+
+.header-nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-list{
+  display: flex;
+  color: black;
+}
+
+.nav-list li{
+  padding-right: 41px;
+}
+
+.header-title{
+  margin-top: 101px;
+  margin-bottom: 181px;
+}
+
+
+.header-title h1{
+  font-size: 110px;
+  font-weight: 500;
+  line-height: 104.9%;
+  text-transform: uppercase;
+}
+
+
+.header-title button{
+  display:inline-block;
+  background: #3943F5;
+  border-radius: 90px;
+  border: none;
+  color: white;
+  font-size: 20px;
+  width: 53%;
+  padding: 35px;
+  transform: translate(30px, -30px)
+}
+
+.header-subtitle{
+  font-size: 40px;
+  line-height: 59px;
+  font-weight: 400;
+  width: 63%;
+}
+.article h2{
+  padding: 119px 294px 81px 90px;
+  font-size: 80px;
+  line-height: 118px;
+  color: white;
+  font-weight: 500;
+}
+
+.color-yellow{
+  color: #EAFC9C;
+}
+
+.color-grey{
+  color: #7A7A7A;
+}
+
+.benefits{
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.benefits-card{
+  text-align: center;
+  width: 34%;
+  padding: 66px 123px 86px 123px;
+  background: #fff;
+  border-radius: 60px;
+}
+
+.benefits-card img{
+  filter: grayscale(100%);
+}
+
+.benefits-card:nth-child(2) img{
+  height: 234px;
+}
+
+.benefits-card h4{
+  margin-top: 19px;
+  margin-bottom: 10px;
+  font-size: 28px;
+  line-height: 41px;
+}
+
+.benefits-card p{
+  font-size: 16px;
+  line-height: 24px;
+}
+
+
+
+.slogan{
+  padding: 179px 142px 80px 143px;
+  background:url("./img/2finger.svg") 25% 100% no-repeat;
+}
+
+.slogan p{
+  transform: translate(391px, 10px);
+}
+.slogan h2{
+  color: white;
+  font-size: 110px;
+  line-height: 162px;
+  text-transform: uppercase;
+  padding: 119px 294px 81px 90px;
+}
+
+.slogan h3{
+  color: white;
+  font-size: 110px;
+  line-height: 162px;
+  text-transform: uppercase;
+  transform: translate(560px, -74px);
+}
+
+.slogans-cards{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.slogans-card{
+  padding: 65px 90px 60px 60px;
+  border-radius: 60px;
+  width: 50%;
+  height: 434px;
+}
+.slogans-card h4{
+  font-size: 40px;
+  line-height: 59px;
+  margin-bottom: 32px;
+}
+
+.slogans-card p{
+  font-size: 24px;
+  line-height: 125%;
+}
+.text-center{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+
+.reviews{
+  padding-top: 66px;
+}
+
+.reviews h2{
+  font-size: 76px;
+  line-height: 112px;
+  font-weight: 500;
+  margin-bottom: 80px;
+  padding: 119px 96px 0px 90px;
+}
+
+.reviews-cards{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+
+}
+
+.reviews-cards h4{
+  font-size: 24px;
+  line-height: 35px;
+}
+.reviews-cards h5{
+  font-size: 24px;
+  line-height: 35px;
+  font-weight: 400;
+}
+
+.reviews-cards p{
+  font-size: 24px;
+  line-height: 130%;
+  padding-top: 45px;
+  font-weight: 400;
+}
+
+.reviews-cards__card{
+  padding: 50px 200px 106px 60px;
+  background: #EAFC9C;
+  border-radius: 60px;
+}
+
+.card__title{
+  display: flex;
+  align-items: center;
+}
+.card__name{
+  padding-left: 16px;
+}
+
+.reviews-cards__first-block{
+  width: 50%;
+}
+
+.reviews-cards__second-block{
+  width: 50%;
+}
+
+.reviews button{
+  background: #3943F5;
+  border-radius: 90px;
+  border: none;
+  color: white;
+  font-size: 20px;
+  line-height: 29px;
+  margin-top: 60px;
+  width: 100%;
+  height: 72px;
+}
+.checklist{
+  margin-top: 180px;
+  display: flex;
+}
+
+.checklist-left-block{
+  background: #EAFC9C url(./img/Saly-37.png) 79% 100% no-repeat;
+  padding: 89px 151px 292px 81px;
+  border-radius: 60px;
+  width: 50%;
+}
+
+.checklist-left-block h3{
+  font-size: 76px;
+  line-height: 112px;
+}
+
+.checklist-right-block{
+  background: #fff;
+  border-radius: 60px;
+  width: 50%;
+  padding: 49px 93px 49px 92px;
+}
+.checklist-right-block label{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+.checklist-right-block input{
+  font-family: 'Montserrat';
+  border-radius: 60px;
+  border-color: black;
+  width: 100%;
+  height: 52px;
+  font-size: 16px;
+  padding: 0 20px;
+}
+
+.checklist-right-block input::placeholder{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.checklist-right-block select{
+  border: 2px solid black;
+  font-family: 'Montserrat';
+  border-radius: 60px;
+  border-color: black;
+  width: 100%;
+  height: 52px;
+  font-size: 16px;
+  padding: 0 40px 0 20px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.checklist__input{
+  margin-bottom: 19px;
+}
+
+.checklist__select{
+  position: relative;
+  margin-bottom: 19px;
+}
+
+.checklist__select::before{
+  content: "";
+  position: absolute;
+  top: 65%;
+  right: 30px;
+  transform: translateY(-50%);
+
+  display: block;
+
+  pointer-events: none;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 8px 7.5px 0 7.5px;
+  border-color: #000000 transparent transparent transparent;
+
+
+}
+
+.checklist-right-block p{
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #7A7A7A;
+  margin-bottom: 38px;
+}
+.checklist-right-block a{
+  color: #7A7A7A;
+  text-decoration: underline;
+}
+.checklist-right-block button{
+  background:#3943F5;
+  color: white;
+  width: 100%;
+  height: 90px;
+  font-size: 20px;
+  line-height: 29px;
+  border:none;
+  border-radius: 60px;
+}
+
+.footer{
+  margin-top: 80px;
+  background: #F1E0FD;
+  border-radius: 70px;
+  padding: 41px 90px 28px 90px;
+}
+
+.footer h3{
+  font-size: 44px;
+  line-height: 105.9%;
+  margin-bottom: 20px;
+}
+
+.footer input{
+  background: transparent;
+  border-color: black;
+  border-radius: 10px;
+  width: 41%;
+  height: 52px;
+  padding: 0  20px;
+  margin-bottom: 52px;
+}
+
+.footer input::placeholder{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: black;
+}
+.footer p{
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.footer-title{
+  display: flex;
+  justify-content: space-between;
+}
+
+.faq{
+  display: flex; 
+  
+}
+
+.faq li{
+  padding-right: 22px; 
+
+}
